@@ -1,0 +1,19 @@
+---
+layout: default
+modal-id: 1
+date: 2020-02-11
+img: bozp.png
+alt: image-alt
+category: BOZP
+description: "Provádíme:<br><br>
+· zajištění komplexních služeb v oblasti bezpečnosti a ochrany zdraví při práci<br>
+· zpracování veškeré potřebné dokumentace na míru vaší firmy<br>
+· odborné zastoupení, pravidelné aktualizace dokumentace<br>
+· zpracování provozních řádů, OS. MPBP<br>
+· vypracování seznamů OOPP<br>
+· zpracování kategorizace prací<br>
+· preventivní kontroly a prověrky ve vaší firmě<br>
+· dodávky bezpečnostních tabulek, fotoluminiscenčního značení, lékárniček ad.<br>
+· školení zaměstnanců dle vašich požadavků<br>
+· zpracování opatření  k předcházení vzniku škod"
+---

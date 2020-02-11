@@ -1,0 +1,16 @@
+---
+layout: default
+modal-id: 2
+date: 2020-02-11
+img: po.png
+alt: image-alt
+category: Požární Ochrana
+description: "Provádíme:<br><br>
+· školení zaměstnanců a vedoucích pracovníků z předpisů o požární ochraně<br>
+· provádění odborné přípravy požárních hlídek zpracování a vedení stanovené dokumentace požární ochrany mandanta<br>
+· účast na kontrolách prováděných Hasičským záchranným sborem kraje<br>
+· zpracování opatření k předcházení vzniku škod z hlediska požární ochrany<br>
+· provádění pravidelných kontrol z hlediska požární ochrany, určené dokumentací požární ochrany a právních předpisů o požární ochraně včetně veškerých nebytových prostor, které mandant vlastní nebo užívá včetně písemného zápisu o nich. Kontroly provádíme s obsahovým zaměřením a ve lhůtách v souladu s platnou legislativou<br>
+· dodávky hasicích přístrojů, hydrantů, požárních tabulek.<br>
+· provádění revizí přenosných hasicích přístrojů a hydrantů<br>"
+---
