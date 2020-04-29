@@ -1,0 +1,1 @@
+docker start -ai bozp-po-syrovy.eu
