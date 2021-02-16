@@ -30,7 +30,7 @@ address:
   - line: Jiří Syrový
   - line: Prokopa Velikého 718
   - line: Vysoké Mýto
-  - line: jiri.syrovy(zavináč)unet.cz
+  - line: <a href="mailto:jiri.syrovy@unet.cz" style="color:white;">jiri.syrovy@unet.cz</a>
 
 # Build settings
 markdown: kramdown
