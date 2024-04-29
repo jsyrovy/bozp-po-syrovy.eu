@@ -1,1 +1,0 @@
-docker run -v %CD%:/srv/jekyll -p 4000:4000 --name bozp-po-syrovy.eu -it jsyrovy/jekyll
