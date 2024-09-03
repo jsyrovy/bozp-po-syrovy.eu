@@ -4,7 +4,6 @@ name: Jiří Syrový
 url: http://bozp-po-syrovy.eu
 description: "Zajišťujeme komplexní služby v BOZP a PO, včetně koordinace staveb."
 keywords: "bozp, po"
-form_key: xpzdjbvy
 
 # Google webmaster tools
 google_verify:
@@ -30,6 +29,7 @@ address:
   - line: Prokopa Velikého 718
   - line: Vysoké Mýto
   - line: <a href="mailto:jiri.syrovy@unet.cz" style="color:white;">jiri.syrovy@unet.cz</a>
+  - line: <a href="tel:+420775309288" style="color:white;">775 309 288</a>
 
 # Build settings
 markdown: kramdown
