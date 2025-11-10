@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="Služby BOZP a PO s.r.o. - komplexní služby v oblasti bezpečnosti práce a požární ochrany">
+    <title>Služby BOZP a PO s.r.o. - Bezpečnost práce a požární ochrana</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Fork Awesome Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .hero-gradient {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+        }
+
+        .section-gradient {
+            background: linear-gradient(to bottom, #f8fafc 0%, #ffffff 100%);
+        }
+    </style>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': '#1e3a8a',      // tmavě modrá
+                        'secondary': '#3b82f6',    // světle modrá
+                        'accent': '#f59e0b',       // oranžová
+                        'dark': '#1f2937',         // tmavě šedá
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-gray-800">
+
+<!-- Navigation -->
+<nav id="navbar" class="fixed w-full top-0 z-50 bg-white shadow-md transition-all duration-300">
+    <div class="container mx-auto px-4">
+        <div class="flex justify-between items-center py-4">
+            <!-- Logo -->
+            <div class="text-xl md:text-2xl font-bold text-primary">
+                <a href="#hero">Služby BOZP a PO s.r.o.</a>
+            </div>
+
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex space-x-6">
+                <a href="#o-firme"
+                   class="nav-link text-gray-700 hover:text-primary transition duration-300 font-medium">O firmě</a>
+                <a href="#bozp" class="nav-link text-gray-700 hover:text-primary transition duration-300 font-medium">BOZP</a>
+                <a href="#po"
+                   class="nav-link text-gray-700 hover:text-primary transition duration-300 font-medium">PO</a>
+                <a href="#koordinace"
+                   class="nav-link text-gray-700 hover:text-primary transition duration-300 font-medium">Koordinace
+                    staveb</a>
+                <a href="#dokumenty"
+                   class="nav-link text-gray-700 hover:text-primary transition duration-300 font-medium">Dokumenty</a>
+                <a href="#kontakt"
+                   class="nav-link text-gray-700 hover:text-primary transition duration-300 font-medium">Kontakt</a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden text-gray-700 focus:outline-none">
+                <i class="fa fa-bars text-2xl"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden pb-4">
+            <a href="#o-firme" class="block py-2 text-gray-700 hover:text-primary transition duration-300">O firmě</a>
+            <a href="#bozp" class="block py-2 text-gray-700 hover:text-primary transition duration-300">BOZP</a>
+            <a href="#po" class="block py-2 text-gray-700 hover:text-primary transition duration-300">PO</a>
+            <a href="#koordinace" class="block py-2 text-gray-700 hover:text-primary transition duration-300">Koordinace
+                staveb</a>
+            <a href="#dokumenty"
+               class="block py-2 text-gray-700 hover:text-primary transition duration-300">Dokumenty</a>
+            <a href="#kontakt" class="block py-2 text-gray-700 hover:text-primary transition duration-300">Kontakt</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="hero" class="hero-gradient text-white pt-32 pb-20 px-4">
+    <div class="container mx-auto text-center">
+        <h1 class="text-4xl md:text-6xl font-bold mb-6">Služby BOZP a PO s.r.o.</h1>
+        <p class="text-lg md:text-xl mb-8 max-w-4xl mx-auto leading-relaxed">
+            Naše společnost zajišťuje služby v oblasti BOZP a PO pro cca 150 firem od větších společností
+            s více jak 200 zaměstnanci až po malé živnostníky v širokém spektru oborů činností.
+        </p>
+        <a href="#o-firme"
+           class="inline-block bg-accent hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-lg transition duration-300 transform hover:scale-105">
+            Zjistit více
+        </a>
+    </div>
+</section>
+
+<!-- O firmě Section -->
+<section id="o-firme" class="py-20 px-4 section-gradient">
+    <div class="container mx-auto max-w-5xl">
+        <div class="text-center mb-12">
+            <i class="fa fa-building text-5xl text-primary mb-4"></i>
+            <h2 class="text-3xl md:text-4xl font-bold text-dark mb-4">O firmě</h2>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg p-8 md:p-12">
+            <p class="text-lg leading-relaxed text-gray-700">
+                Zajišťujeme komplexní služby v BOZP a PO, včetně koordinace staveb. Spolupracujeme s revizními
+                techniky a osobami odborně způsobilými dle konkrétních požadavků zákazníka tak, abychom společně
+                plně pokryli veškeré požadavky zákazníka, vč. např. zpracování systému HACCP. Naše firma poskytuje
+                služby v BOZP a PO již od roku 2009, (nejprve jako OSVČ) od roku 2019 proběhla změna právní
+                subjektivity a bylo založena společnost SLUŽBY BOZP a PO s.r.o., která je pokračovatelem a přebrala
+                veškeré smluvní závazky OSVČ. Nezakládáme si ani tak na reklamě, spíše se naše služby rozšiřují
+                díky dobrým referencím stávajících zákazníků zákazníkům novým.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- BOZP Section -->
+<section id="bozp" class="py-20 px-4 bg-white">
+    <div class="container mx-auto max-w-5xl">
+        <div class="text-center mb-12">
+            <div class="text-5xl mb-4">
+                <i class="fa fa-shield text-primary"></i>
+            </div>
+            <h2 class="text-3xl md:text-4xl font-bold text-dark mb-4">Bezpečnost a ochrana zdraví při práci (BOZP)</h2>
+        </div>
+        <div class="bg-gray-50 rounded-lg shadow-lg p-8 md:p-12">
+            <ul class="space-y-4 text-lg text-gray-700">
+                <li class="flex items-start">
+                    <i class="fa fa-check-circle text-accent text-xl mr-3 mt-1"></i>
+                    <span>zajištění komplexních služeb v oblasti bezpečnosti a ochrany zdraví při práci</span>
+                </li>
+                <li class="flex items-start">
+                    <i class="fa fa-check-circle text-accent text-xl mr-3 mt-1"></i>
+                    <span>zpracování veškeré potřebné dokumentace na míru vaší firmy</span>
+                </li>
+                <li class="flex items-start">
+                    <i class="fa fa-check-circle text-accent text-xl mr-3 mt-1"></i>
+                    <span>odborné zastoupení, pravidelné aktualizace dokumentace</span>
+                </li>
+                <li class="flex items-start">
+                    <i class="fa fa-check-circle text-accent text-xl mr-3 mt-1"></i>
+                    <span>zpracování provozních řádů, OS. MPBP</span>
+                </li>
+                <li class="flex items-start">
+                    <i class="fa fa-check-circle text-accent text-xl mr-3 mt-1"></i>
+                    <span>vypracování seznamů OOPP</span>
+                </li>
+                <li class="flex items-start">
+                    <i class="fa fa-check-circle text-accent text-xl mr-3 mt-1"></i>
+                    <span>zpracování kategorizace prací</span>
+                </li>
+                <li class="flex items-start">
+                    <i class="fa fa-check-circle text-accent text-xl mr-3 mt-1"></i>
+                    <span>preventivní kontroly a prověrky ve vaší firmě</span>
+                </li>
+                <li class="flex items-start">
+                    <i class="fa fa-check-circle text-accent text-xl mr-3 mt-1"></i>
+                    <span>dodávky bezpečnostních tabulek, fotoluminiscenčního značení, lékárniček ad.</span>
+                </li>
+                <li class="flex items-start">
+                    <i class="fa fa-check-circle text-accent text-xl mr-3 mt-1"></i>
+                    <span>školení zaměstnanců dle vašich požadavků</span>
+                </li>
+                <li class="flex items-start">
+                    <i class="fa fa-check-circle text-accent text-xl mr-3 mt-1"></i>
+                    <span>zpracování opatření k předcházení vzniku škod</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- PO Section -->
+<section id="po" class="py-20 px-4 section-gradient">
+    <div class="container mx-auto max-w-5xl">
+        <div class="text-center mb-12">
+            <div class="text-5xl mb-4">
+                <i class="fa fa-fire-extinguisher text-primary"></i>
+            </div>
+            <h2 class="text-3xl md:text-4xl font-bold text-dark mb-4">Požární ochrana (PO)</h2>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg p-8 md:p-12">
+            <ul class="space-y-4 text-lg text-gray-700">
+                <li class="flex items-start">
+                    <i class="fa fa-check-circle text-accent text-xl mr-3 mt-1"></i>
+                    <span>školení zaměstnanců a vedoucích pracovníků z předpisů o požární ochraně</span>
+                </li>
+                <li class="flex items-start">
+                    <i class="fa fa-check-circle text-accent text-xl mr-3 mt-1"></i>
+                    <span>provádění odborné přípravy požárních hlídek zpracování a vedení stanovené dokumentace požární ochrany mandanta</span>
+                </li>
+                <li class="flex items-start">
+                    <i class="fa fa-check-circle text-accent text-xl mr-3 mt-1"></i>
+                    <span>účast na kontrolách prováděných Hasičským záchranným sborem kraje</span>
+                </li>
+                <li class="flex items-start">
+                    <i class="fa fa-check-circle text-accent text-xl mr-3 mt-1"></i>
+                    <span>zpracování opatření k předcházení vzniku škod z hlediska požární ochrany</span>
+                </li>
+                <li class="flex items-start">
+                    <i class="fa fa-check-circle text-accent text-xl mr-3 mt-1"></i>
+                    <span>provádění pravidelných kontrol z hlediska požární ochrany, určené dokumentací požární ochrany a právních předpisů o požární ochraně včetně veškerých nebytových prostor, které mandant vlastní nebo užívá včetně písemného zápisu o nich. Kontroly provádíme s obsahovým zaměřením a ve lhůtách v souladu s platnou legislativou</span>
+                </li>
+                <li class="flex items-start">
+                    <i class="fa fa-check-circle text-accent text-xl mr-3 mt-1"></i>
+                    <span>dodávky hasicích přístrojů, hydrantů, požárních tabulek</span>
+                </li>
+                <li class="flex items-start">
+                    <i class="fa fa-check-circle text-accent text-xl mr-3 mt-1"></i>
+                    <span>provádění revizí přenosných hasicích přístrojů a hydrantů</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Koordinace Section -->
+<section id="koordinace" class="py-20 px-4 bg-white">
+    <div class="container mx-auto max-w-5xl">
+        <div class="text-center mb-12">
+            <div class="text-5xl mb-4">
+                <i class="fa fa-users text-primary"></i>
+            </div>
+            <h2 class="text-3xl md:text-4xl font-bold text-dark mb-4">Koordinace BOZP na staveništi</h2>
+        </div>
+
+        <div class="bg-gray-50 rounded-lg shadow-lg p-8 md:p-12 mb-8">
+            <h3 class="text-2xl font-bold text-primary mb-6 text-center">KOORDINACE BOZP NA STAVBĚ MÁ TŘI FÁZE</h3>
+            <p class="text-lg leading-relaxed text-gray-700 mb-8">
+                Proces koordinace BOZP na stavbě má tři základní fáze, kterými jsou: zahájení projektové dokumentace
+                stavby, předrealizační fáze a fáze realizace. Za žádných okolností nelze tyto fáze posloupně měnit,
+                tzn., že vždy se začíná logicky od nominace koordinátora a jeho zapojení do zahájení projektové
+                dokumentace stavby, dále následují přípravy - tzv. předrealizace a pokračuje se samotnou realizací -
+                tedy kontrolami na stavbě. Pojďme si tedy konkretizovat, co jednotlivé fáze zahrnují.
+            </p>
+
+            <!-- Fáze 1 -->
+            <div class="mb-8">
+                <h4 class="text-xl font-bold text-secondary mb-4 flex items-center">
+                    <span class="bg-secondary text-white rounded-full w-8 h-8 flex items-center justify-center mr-3">1</span>
+                    ZAHÁJENÍ PROJEKTOVÉ DOKUMENTACE STAVBY
+                </h4>
+                <p class="text-gray-700 leading-relaxed ml-11">
+                    Měli byste vědět, že pokud hledáte koordinátora BOZP pro vaši stavbu, je povinné ho nově nominovat
+                    již při přípravě stavby - tzn. při zahájení zpracování projektové dokumentace stavby, nikoliv až
+                    v předrealizační fázi, jak tomu bylo dříve. Jedná se o novinku, kterou přinesla novela platná od
+                    1. 5. 2016. V této první fázi, kdy najdete svého koordinátora BOZP a pověříte ho touto funkcí,
+                    by vám měl být maximálně k dispozici už při zpracování projektové dokumentace. Nejde o to, aby
+                    radil projektantovi, jak má stavbu projektovat, ale aby se vyjadřoval k případným bezpečnostním
+                    rizikům, které mohou být již ve fázi projektování jasně viditelné. Cílem této fáze je předejít
+                    bezpečnostním hrozbám už v zárodku stavby a tím pádem zlepšení efektivity práce zejména snížením
+                    nákladů v případě zjištění bezpečnostních problémů až bude projekt hotový, a zároveň také zvýšení
+                    bezpečnosti práce všech zúčastněných stran.
+                </p>
+            </div>
+
+            <!-- Fáze 2 -->
+            <div class="mb-8">
+                <h4 class="text-xl font-bold text-secondary mb-4 flex items-center">
+                    <span class="bg-secondary text-white rounded-full w-8 h-8 flex items-center justify-center mr-3">2</span>
+                    PŘÍPRAVNÉ PRÁCE - PŘEDREALIZAČNÍ FÁZE STAVBY
+                </h4>
+                <p class="text-gray-700 leading-relaxed ml-11 mb-4">
+                    Přípravné práce, nebo také předrealizační fáze stavby, zahrnují následující činnosti:
+                </p>
+                <ul class="space-y-3 ml-11">
+                    <li class="flex items-start">
+                        <i class="fa fa-angle-right text-accent text-xl mr-3 mt-1"></i>
+                        <span class="text-gray-700">zpracování plánu BOZP a zásad organizace výstavby</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fa fa-angle-right text-accent text-xl mr-3 mt-1"></i>
+                        <span class="text-gray-700">zpracování přehledu právních předpisů BOZP a předání zadavateli stavby</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fa fa-angle-right text-accent text-xl mr-3 mt-1"></i>
+                        <span class="text-gray-700">předání informací o bezpečnostních a zdravotních rizicích projektantovi</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fa fa-angle-right text-accent text-xl mr-3 mt-1"></i>
+                        <span class="text-gray-700">poskytnutí odborného poradenství a doporučení projektantovi, týkající se požadavků na zajištění BOZP na stavbě, technologických postupů a jiných specifických opatření</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fa fa-angle-right text-accent text-xl mr-3 mt-1"></i>
+                        <span class="text-gray-700">finální kontrola projektové dokumentace stavby a posouzení stavebních a technologických postupů</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fa fa-angle-right text-accent text-xl mr-3 mt-1"></i>
+                        <span class="text-gray-700">zpracování oznámení o zahájení stavebních prací včetně jeho doručení na Oblastní inspektorát práce</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Fáze 3 -->
+            <div>
+                <h4 class="text-xl font-bold text-secondary mb-4 flex items-center">
+                    <span class="bg-secondary text-white rounded-full w-8 h-8 flex items-center justify-center mr-3">3</span>
+                    VÝKONNÉ PRÁCE - FÁZE REALIZACE STAVBY
+                </h4>
+                <p class="text-gray-700 leading-relaxed ml-11 mb-4">
+                    Výkonné práce, nebo také fáze realizace stavby, zahrnují následující činnosti:
+                </p>
+                <ul class="space-y-3 ml-11">
+                    <li class="flex items-start">
+                        <i class="fa fa-angle-right text-accent text-xl mr-3 mt-1"></i>
+                        <span class="text-gray-700">vzájemná koordinace bezpečnosti a ochrany zdraví při práci všech zúčastněných a zavázaných zhotovitelů, kteří na stavbě pracují</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fa fa-angle-right text-accent text-xl mr-3 mt-1"></i>
+                        <span class="text-gray-700">organizace a realizace kontrolních dnů BOZP - součástí je také přímé řešení a konzultace bezpečnosti práce se všemi zhotoviteli stavby</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fa fa-angle-right text-accent text-xl mr-3 mt-1"></i>
+                        <span class="text-gray-700">pravidelná kontrola plnění a případná aktualizace plánu BOZP</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fa fa-angle-right text-accent text-xl mr-3 mt-1"></i>
+                        <span class="text-gray-700">pravidelná kontrola dodržování zásad a povinností týkající se BOZP včetně dokumentace</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fa fa-angle-right text-accent text-xl mr-3 mt-1"></i>
+                        <span class="text-gray-700">pravidelné poskytování informací a osobní konzultace zadavateli stavby týkající se plnění, případně i neplnění, domluvených úkolů a nařízení</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fa fa-angle-right text-accent text-xl mr-3 mt-1"></i>
+                        <span class="text-gray-700">provádění fotografické dokumentace všech zjištěných nedostatků týkající se plnění BOZP</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fa fa-angle-right text-accent text-xl mr-3 mt-1"></i>
+                        <span class="text-gray-700">pravidelná spolupráce se stavebním dozorem</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Dokumenty Section -->
+<section id="dokumenty" class="py-20 px-4 section-gradient">
+    <div class="container mx-auto max-w-5xl">
+        <div class="text-center mb-12">
+            <div class="text-5xl mb-4">
+                <i class="fa fa-file-text text-primary"></i>
+            </div>
+            <h2 class="text-3xl md:text-4xl font-bold text-dark mb-4">Dokumentace a formuláře</h2>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg p-8 md:p-12">
+            <div class="space-y-4 text-lg">
+                <div class="flex items-center hover:bg-gray-50 p-3 rounded transition duration-300">
+                    <i class="fa fa-file-pdf-o text-red-600 text-2xl mr-4"></i>
+                    <a href="/files/osvedceni_bozp.pdf"
+                       class="text-secondary hover:text-primary transition duration-300 hover:underline">
+                        Osvědčení o odborné způsobilosti - BOZP
+                    </a>
+                </div>
+                <div class="flex items-center hover:bg-gray-50 p-3 rounded transition duration-300">
+                    <i class="fa fa-file-pdf-o text-red-600 text-2xl mr-4"></i>
+                    <a href="/files/osvedceni_stavby.pdf"
+                       class="text-secondary hover:text-primary transition duration-300 hover:underline">
+                        Osvědčení o odborné způsobilosti - BOZP na staveništi
+                    </a>
+                </div>
+                <div class="flex items-center hover:bg-gray-50 p-3 rounded transition duration-300">
+                    <i class="fa fa-file-pdf-o text-red-600 text-2xl mr-4"></i>
+                    <a href="/files/osvedceni_po.pdf"
+                       class="text-secondary hover:text-primary transition duration-300 hover:underline">
+                        Osvědčení o odborné způsobilosti - PO
+                    </a>
+                </div>
+                <div class="flex items-center hover:bg-gray-50 p-3 rounded transition duration-300">
+                    <i class="fa fa-file-image-o text-blue-600 text-2xl mr-4"></i>
+                    <a href="/files/preventista_po.jpg"
+                       class="text-secondary hover:text-primary transition duration-300 hover:underline">
+                        Osvědčení o odborné způsobilosti - Preventista PO
+                    </a>
+                </div>
+                <div class="flex items-center hover:bg-gray-50 p-3 rounded transition duration-300">
+                    <i class="fa fa-file-pdf-o text-red-600 text-2xl mr-4"></i>
+                    <a href="/files/vypis_obch_rejsrik.pdf"
+                       class="text-secondary hover:text-primary transition duration-300 hover:underline">
+                        Výpis z obchodního rejstříku
+                    </a>
+                </div>
+                <div class="flex items-center hover:bg-gray-50 p-3 rounded transition duration-300">
+                    <i class="fa fa-file-pdf-o text-red-600 text-2xl mr-4"></i>
+                    <a href="/files/lei_certifikat.pdf"
+                       class="text-secondary hover:text-primary transition duration-300 hover:underline">
+                        Certifikát LEI
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Kontakt / Footer Section -->
+<section id="kontakt" class="py-20 px-4 bg-dark text-white">
+    <div class="container mx-auto max-w-5xl">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Kontakt</h2>
+        </div>
+        <div class="grid md:grid-cols-2 gap-8 mb-12">
+            <div class="bg-gray-800 rounded-lg p-8">
+                <h3 class="text-xl font-bold mb-6 text-accent">Kontaktní údaje</h3>
+                <div class="space-y-4">
+                    <div class="flex items-start">
+                        <i class="fa fa-building text-accent text-xl mr-4 mt-1"></i>
+                        <div>
+                            <p class="font-semibold">Služby BOZP a PO s.r.o.</p>
+                            <p class="text-gray-300">IČ: 086 69 635</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <i class="fa fa-map-marker text-accent text-xl mr-4 mt-1"></i>
+                        <div>
+                            <p class="text-gray-300">Prokopa Velikého 718</p>
+                            <p class="text-gray-300">Vysoké Mýto</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <i class="fa fa-envelope text-accent text-xl mr-4 mt-1"></i>
+                        <a href="mailto:info@bozp-po-syrovy.eu"
+                           class="text-gray-300 hover:text-accent transition duration-300">info@bozp-po-syrovy.eu</a>
+                    </div>
+                    <div class="flex items-start">
+                        <i class="fa fa-phone text-accent text-xl mr-4 mt-1"></i>
+                        <a href="tel:+420775309288" class="text-gray-300 hover:text-accent transition duration-300">775
+                            309 288</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-gray-800 rounded-lg p-8">
+                <h3 class="text-xl font-bold mb-6 text-accent">Provozní doba</h3>
+                <div class="space-y-3 text-gray-300">
+                    <p><span class="font-semibold">Pondělí - Pátek:</span> 8:00 - 17:00</p>
+                    <p class="text-sm mt-4">Mimo pracovní dobu jsme dostupní na telefonním čísle pro naléhavé
+                        případy.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="border-t border-gray-700 pt-8 text-center">
+            <p class="text-gray-400 mb-2">&copy; 2025 Služby BOZP a PO s.r.o. Všechna práva vyhrazena.</p>
+            <div class="flex justify-center space-x-4 text-sm">
+                <a href="#" class="text-gray-400 hover:text-accent transition duration-300">GDPR</a>
+                <span class="text-gray-600">|</span>
+                <a href="#" class="text-gray-400 hover:text-accent transition duration-300">Obchodní podmínky</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Scroll to Top Button -->
+<button id="scroll-top"
+        class="fixed bottom-8 right-8 bg-accent hover:bg-orange-600 text-white p-4 rounded-full shadow-lg transition duration-300 transform hover:scale-110 hidden">
+    <i class="fa fa-arrow-up text-xl"></i>
+</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>
+
