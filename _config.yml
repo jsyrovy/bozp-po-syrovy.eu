@@ -34,3 +34,6 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+include:
+  - v2
